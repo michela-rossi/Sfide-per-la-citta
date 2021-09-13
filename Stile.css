@@ -1,26 +1,23 @@
 #SxC_Base {
     position: absolute;
-    right: 0px;
-    top: 0px;
+    margin:0;
     z-index: -1;
-    width: 100%;
+    width: 80%;
   }
 
 .immagine {
     position: absolute;
-    right: 0px;
-    top: 0px;
+    margin:0;
     z-index: 0;
-    width: 100%;
+    width: 80%;
   }
 
 
   #SxC_Numeri {
     position: absolute;
-    right: 0px;
-    top: 0px;
+    margin:0;
     z-index: 1;
-    width: 100%;
+    width: 80%;
   }
 
 #p1 {
