@@ -2,6 +2,7 @@
     display: grid;
   grid-template-rows: 100vh;
   grid-template-columns: 100vw;
+    width: 100%vw;
   }
 
 
@@ -26,7 +27,6 @@
     z-index: 1;
     width: 80%;
       position: absolute;
-    top: 0px;
     justify-self: center;
   align-self: center;
   }
