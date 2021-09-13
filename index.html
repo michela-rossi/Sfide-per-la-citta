@@ -123,6 +123,11 @@
                 allowTaint: true,
                 useCORS: true,
             })
+            await html2canvas(element, {
+    windowWidth: element.scrollWidth,
+    windowHeight: element.scrollHeight
+});
+            
                 .then(function (canvas) {
                     document.getElementById("result").src = canvas.toDataURL("image/jpeg", 0.2);
                 })
