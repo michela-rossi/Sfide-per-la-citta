@@ -124,7 +124,7 @@
                 useCORS: true,
             })
                 .then(function (canvas) {
-                    document.getElementById("result").src = canvas.toDataURL("image/png", 0.5);
+                    document.getElementById("result").src = canvas.toDataURL("image/jpeg", 0.2);
                 })
                 .catch((e) => {
                     alert(e);
