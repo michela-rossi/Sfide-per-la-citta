@@ -119,14 +119,14 @@
     <script>
         function capture() {
             html2canvas(document.getElementById("main"), {
-                scale: 0.8,
+                scale: 1,
                 letterRendering: 1,
                 allowTaint: true,
                 useCORS: true,  
             })
             
                 .then(function (canvas) {
-                    document.getElementById("result").src = canvas.toDataURL("image/jpeg", 0.9);
+                    document.getElementById("result").src = canvas.toDataURL("image/jpeg", 1);
                 })
                 .catch((e) => {
                     alert(e);
