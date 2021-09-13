@@ -1,8 +1,6 @@
 #main {
-    display: grid;
-  grid-template-rows: 100vh;
-  grid-template-columns: 100vw;
-    width: 100vw;
+    display: flex;
+  min-height: 100vh;
   }
 
 
@@ -10,16 +8,14 @@
     z-index: -1;
     width: 80%;
     position: absolute;
-    justify-self: center;
-  align-self: center;
+    margin:auto;
   }
 
 .immagine {
     z-index: 0;
     width: 80%;
     position: absolute;
-    justify-self: center;
-  align-self: center;
+    margin:auto;
   }
 
 
@@ -27,8 +23,7 @@
     z-index: 1;
     width: 80%;
       position: absolute;
-    justify-self: center;
-  align-self: center;
+    margin:auto;
   }
 
 #p1 {
