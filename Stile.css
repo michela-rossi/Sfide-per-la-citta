@@ -5,6 +5,10 @@
   align-items: center;
   }
 
+.button {
+   background-color: red;
+  }
+
 #SxC_Base {
     z-index: -1;
     width: 80%;
