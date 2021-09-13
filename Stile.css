@@ -1,12 +1,14 @@
 #SxC_Base {
     z-index: -1;
     width: 80%;
+    top: 0px;
     margin:auto;
   }
 
 .immagine {
     z-index: 0;
     width: 80%;
+    top: 0px;
     margin:auto;
   }
 
@@ -14,6 +16,7 @@
   #SxC_Numeri {
     z-index: 1;
     width: 80%;
+    top: 0px;
     margin:auto;
   }
 
