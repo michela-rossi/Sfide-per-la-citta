@@ -5,6 +5,10 @@
   align-items: center;
   }
 
+.paragrafi {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
 #SxC_Base {
     z-index: -1;
