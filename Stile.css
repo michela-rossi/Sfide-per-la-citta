@@ -51,6 +51,10 @@ background-color: #ededed;
     shadow:none;
 } 
 
+.btn1.btn2.btn3.btn4.btn5.btn6 {
+font-size:20px;
+}
+
 #SxC_Base {
     z-index: -1;
     width: 80%;
@@ -80,5 +84,5 @@ background-color: #ededed;
   position: relative;
   right: 0p;
   width: 60%;
-    font-size: 18px;
+    font-size: 20px;
 }
