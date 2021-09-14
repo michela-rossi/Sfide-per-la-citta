@@ -4,13 +4,52 @@
   align-items: center;
   }
 
+.selected{
+  background-color:#d6012e;
+  color: white;
+    border: none;
+    shadow:none;
+}
+
 .button {
-   background-color: red;
+   background-color: #d6012e;
     color: white;
     width: 300px;
     height: 50px; 
     font-size: 25px;
-  }
+    border: none;
+    box-shadow: none;
+}
+
+.button:hover{
+background-color: #56021a;
+} 
+
+.btn1:hover{
+background-color: #ededed;
+    border: none;
+    shadow:none;
+} 
+.btn2:hover{
+background-color: #ededed;
+    border: none;
+    shadow:none;
+} 
+.btn3:hover{
+background-color: #ededed;
+    border: none;
+    shadow:none;
+} 
+.btn4:hover{
+background-color: #ededed;
+    border: none;
+    shadow:none;
+} 
+.btn5:hover{
+background-color: #ededed;
+    border: none;
+    shadow:none;
+} 
 
 #SxC_Base {
     z-index: -1;
@@ -41,4 +80,5 @@
   position: relative;
   right: 0p;
   width: 60%;
+    font-size: 18px;
 }
