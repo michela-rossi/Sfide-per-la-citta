@@ -5,6 +5,10 @@
   align-items: center;
   }
 
+img#result {
+    height:900px;
+  }
+
 .button {
    background-color: red;
     color: white;
