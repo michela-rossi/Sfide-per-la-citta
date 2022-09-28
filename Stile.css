@@ -57,7 +57,7 @@ font-size:20px;
 
 #SxC_Base {
     z-index: -1;
-    width: 90vh;
+    max-height: 90vh;
     position: absolute;
     margin-left:10px;
     top:10px;
@@ -65,7 +65,7 @@ font-size:20px;
 
 .immagine {
     z-index: 0;
-    width: 90vh;
+    max-height: 90vh;
     position: absolute;
     margin-left:10px;
     top:10px;
@@ -75,7 +75,7 @@ font-size:20px;
 
   #SxC_Numeri {
     z-index: 1;
-    width: 90vh;
+    max-height: 90vh;
       position: absolute;
     margin-left:10px;
     top:10px;
